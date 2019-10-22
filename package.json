@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Projeto Node com SQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raibm/NODE_COM_SQL.git"
+  },
+  "author": "Rai Bizerra Maciel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raibm/NODE_COM_SQL/issues"
+  },
+  "homepage": "https://github.com/raibm/NODE_COM_SQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
